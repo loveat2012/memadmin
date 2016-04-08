@@ -135,7 +135,7 @@ class MEMMANAGER {
 				$carg = null;
 				$this -> multiaddServer($conarr[$i]);
 			} 
-		} 
+		}
 		return true;
 	} 
 	/**

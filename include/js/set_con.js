@@ -48,8 +48,8 @@ $(function() {
             alert(no_port);
             return;
         }
-        var rehost = /^[A-Za-z0-9_\.\/]+$/;
-        var report = /^[1-9]+[0-9]*$/;
+        var rehost = /^[A-Za-z0-9_\.:\/]+$/;
+        var report = /^0|[1-9]+[0-9]*$/;
         var retimeout = /^[1-9]+[0-9]*$/;
         if (!rehost.test($("#conhost").val())) {
             alert(con_host + " " + con_failhost);
